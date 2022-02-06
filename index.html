@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CheckOut</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bowlby+One+SC&family=Changa:wght@200&family=Indie+Flower&family=Lato:wght@100;400&family=Lobster+Two&family=Mochiy+Pop+P+One&family=Montagu+Slab:wght@500&family=Montserrat:wght@300;500&family=Neonderthaw&family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@300&family=Permanent+Marker&family=Raleway:ital,wght@1,300&family=Rubik+Beastly&family=Teko:wght@300;700&family=Viaoda+Libre&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header><h1>Checkout</h1></header>
+
+    <form action="#" class="main">
+      <div class="main_sol">
+        <div>
+          <h2>Contact information</h2>
+          <label for="mail">Email</label>
+          <div>
+            <img
+              src="https://img.icons8.com/wired/20/000000/filled-message.png"
+              class="icon"
+            />
+            <input
+              type="email"
+              name="mail"
+              id="mail"
+              placeholder="Enter Your Email"
+            />
+          </div>
+          <label for="phone">Phone</label>
+          <div>
+            <img
+              src="https://img.icons8.com/wired/20/000000/phone.png"
+              class="icon"
+            />
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+              placeholder="Enter Your Phone"
+            />
+          </div>
+        </div>
+        <div class="main_sol_2">
+          <h2>Shipping address</h2>
+          <label for="name">Full name</label>
+          <div>
+            <img
+              src="https://img.icons8.com/wired/20/000000/businessman.png"
+              class="icon"
+            />
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter Your Full name"
+            />
+          </div>
+          <label for="adres">Address</label>
+          <div>
+            <img
+              src="https://img.icons8.com/wired/20/000000/home.png"
+              class="icon"
+            />
+            <input
+              type="text"
+              name="adres"
+              id="adres"
+              placeholder="Enter Your Adress"
+            />
+          </div>
+          <label for="city">City</label>
+          <div>
+            <img
+              src="https://img.icons8.com/wired/20/000000/city-buildings.png"
+              class="icon"
+            />
+            <input
+              type="text"
+              name="city"
+              id="city"
+              placeholder="Enter Your City"
+            />
+          </div>
+          <div class="main_sol_alt">
+            <div>
+              <label for="country">Country</label> <br />
+              <img
+                src="https://img.icons8.com/wired/20/000000/globe.png"
+                class="icon_alt"
+              />
+              <select name="country" id="country">
+                <option value="turkey" selected>Turkey</option>
+                <option value="germany">Germany</option>
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+              </select>
+            </div>
+            <div>
+              <label for="posta">Post Code</label> <br />
+              <img
+                src="https://img.icons8.com/wired/20/000000/mailbox-opened-flag-down.png"
+                class="icon_alt"
+              />
+              <input
+                type="number"
+                name="posta"
+                id="posta"
+                placeholder="Enter Your Postal Code"
+              />
+            </div>
+          </div>
+          <div>
+            <input type="checkbox" name="onay" id="onay" value="onay" />
+            <label for="onay">See this information next time</label>
+          </div>
+          <div class="main_sol_submit">
+            <input type="submit" value="Continue" id="submit" />
+          </div>
+        </div>
+      </div>
+      <div class="main_sağ">
+        <div class="main_sağ_1">
+          <img src="./IMG/photo1.png" alt="" />
+          <div>
+            <h2>Vintage Backbag</h2>
+            <p><span>$54.99</span> <del>$94.99</del> </p>
+            <input type="range" name="sayac" id="sayac" min="1" max="10" />
+          </div>
+        </div>
+        <div class="main_sağ_1">
+          <img src="./IMG/photo2.png" alt="" />
+          <div>
+            <h2>Levi Shoes</h2>
+            <p><span>$74.99</span> <del>$124.99</del> </p>
+            <input type="range" name="sayac" id="sayac" min="1" max="10" />
+          </div>
+        </div>
+        <div class="main_sağ_2">
+          <p>Shipping</p>
+          <p>$19</p>
+        </div>
+        <div class="main_sağ_2">
+          <p>Total</p>
+          <p>$148.98</p>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
